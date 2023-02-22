@@ -1,0 +1,131 @@
+body{
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(145deg, var(--primary2),var(--primary2),var(--secondary2)) no-repeat center center / cover;
+    background-size:100%;
+}
+.navbar{
+    padding:20px;
+}
+.navbarTitle{
+    color:white;
+}
+.navtitle{
+    font-size: 26pt;
+}
+div.container{
+    margin:0;
+}
+.genre{
+    display: inline;
+    border: 1px solid #FFBB00;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 10px;
+}
+.movieImg{
+    width:100px;
+    height:130px;
+    border:1px solid#FFBB00;
+    border-radius: 10px;
+    padding: 0;
+}
+.movieTitle{
+    font-size: 24pt;
+}
+.year{
+    font-size: 20pt;
+}
+.iconInputTxt{
+    font-size:12pt;
+}
+.NavIconInputTxt{
+    background-color: white;
+    color:#000000;
+    font-size: 11pt;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.expWorldRev{
+    font-size: 22pt;
+}
+.worldRevenue{
+    width:300px;
+    margin:auto;
+    background-color: #FFBB00;
+    border-radius: 10px;
+    color:#000000;
+    font-size: 29pt;
+    margin-bottom: 15px;
+}
+input.form-control.navInputTxt{
+    width:500px;
+}
+.txt{
+    font-size: 16pt;
+}.navbar{
+    margin-bottom: 10px;
+}
+.yellowTxt{
+    color:#FFBB00;
+}
+.navInputTxt{
+    border-radius: 30px;
+    border: none;
+    color:#707070;
+    font-size: 11pt;
+}
+.navSearchBtn{
+    border:none;
+}
+.navInputTxt:focus-visible{
+    box-shadow:none;
+    color:black;
+}
+.navSearchBtn:active{
+    box-shadow:none;
+}
+
+.navSearchBtn{
+    border-radius: 30px;
+    width:100px;
+    color:#000000;
+    font-size: 12pt;
+    background-image: linear-gradient(to right, #FFBB00 0%, #FFBB00 51%, #FFED00 100%);
+}
+.NavInputTxt,.navIconInputTxt{
+    border-radius: 30px;
+    border: none;
+    color:#707070;
+    font-size: 21pt;
+}
+.wholecontainer{
+    width: 90%;
+    align-self: center;
+}
+.lowerPart{
+    width:90%;
+    align-self: center;
+    padding: 40px;
+    text-align: left;
+}
+.movNameYear{
+    padding:0;
+}
+h4{
+    font-size: 18pt;
+    color: #FFBB00;
+}
+hr{
+    border:0.1px solid ;
+}
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #FFBB00; /* old IE */
+    background-color: rgb(104, 85, 56); /* Modern Browsers */
+}
+.movNameYear{
+    text-align: left;
+}

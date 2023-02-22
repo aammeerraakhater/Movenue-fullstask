@@ -1,0 +1,20 @@
+:root {
+    --primary:rgba(0, 0, 0,0.7);
+    --primary2:rgba(0, 0, 0,1);
+    --secondary:hsla(44, 100%, 53%,0.5);
+    --secondary2:hsla(44, 100%, 53%,1);
+    --pane-padding: 5px 42px;
+}
+body{
+    height:100vh;
+    width:100vh;
+    margin:10;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 4.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 11pt;
+}
+.tilteMov{
+    color:#FFBB00;
+}

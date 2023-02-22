@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(145deg, var(--primary),var(--primary),var(--secondary)),url("avatar.jpg") no-repeat center center / cover;
+
+}
+.maincon{
+    width:50%;
+    margin-top: 30;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.welcome{
+    font-size: 24pt;
+}
+.title{
+    font-size: 63pt;
+    font-weight:bold;
+}
+.searchBtn{
+    border-radius: 30px;
+    width:25%;
+    color:#000000;
+    font-size: 24pt;
+    /* font-weight: bold; */
+    background-image: linear-gradient(to right, #FFBB00 0%, #FFBB00 51%, #FFED00 100%);
+}
+.inputTxt:focus-visible{
+    box-shadow:none;
+    color:black;
+}
+.searchBtn:active{
+    box-shadow:none;
+}
+.inputTxt,.iconInputTxt{
+    border-radius: 30px;
+    border: none;
+    color:#707070;
+    font-size: 21pt;
+}
+.iconInputTxt{
+    background-color: white;
+    color:#000000;
+    font-size: 22pt;
+    font-weight: bold;
+
+}
+
+
+.title, .inputTxtTotal, .searchBtn{
+    margin-bottom: 20px;
+}
